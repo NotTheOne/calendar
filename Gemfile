@@ -35,7 +35,8 @@ end
 gem 'devise'
 gem 'sqlite3'
 gem 'simple_form'
-
+gem 'event-calendar', :require => 'event_calendar'
+gem 'factory_girl_rails', :group => :test
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
